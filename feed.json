@@ -9,5 +9,19 @@
         "name": "Dani"
     },
     "items": [
+        {
+            "id": "https://tinygods.dev/emigrant-lives-telegram-bot.html",
+            "url": "https://tinygods.dev/emigrant-lives-telegram-bot.html",
+            "title": "Emigrant Lives Telegram Bot",
+            "summary": "A demo bot that provies insights on cities with large Russian expat communities. Perfect for potential movers or the curious! t.me/EmigrantLivesBot The bot employs TinyGods' data processing pipeline, fetching and aggregating information from multiple sources including public APIs and websites. ",
+            "content_html": "<p>A demo bot that provies insights on cities with large Russian expat communities. Perfect for potential movers or the curious!</p>\n<p><a href=\"t.me/EmigrantLivesBot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"></a><a href=\"t.me/EmigrantLivesBot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">t.me/EmigrantLivesBot</a></p>\n<p>The bot employs TinyGods' data processing pipeline, fetching and aggregating information from multiple sources including public APIs and websites. </p>",
+            "author": {
+                "name": "Dani"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-07-06T01:07:28+03:00",
+            "date_modified": "2024-07-06T01:08:24+03:00"
+        }
     ]
 }
