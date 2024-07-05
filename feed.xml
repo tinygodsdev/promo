@@ -3,7 +3,7 @@
     <title>TinyGods.Dev</title>
     <link href="https://tinygods.dev/feed.xml" rel="self" />
     <link href="https://tinygods.dev" />
-    <updated>2024-07-06T01:08:24+03:00</updated>
+    <updated>2024-07-06T01:32:03+03:00</updated>
     <author>
         <name>Dani</name>
     </author>
@@ -26,7 +26,7 @@
         <content type="html">
             <![CDATA[
                 <p>A demo bot that provies insights on cities with large Russian expat communities. Perfect for potential movers or the curious!</p>
-<p><a href="t.me/EmigrantLivesBot" target="_blank" rel="nofollow noopener noreferrer"></a><a href="t.me/EmigrantLivesBot" target="_blank" rel="nofollow noopener noreferrer">t.me/EmigrantLivesBot</a></p>
+<p><a href="t.me/EmigrantLivesBot" target="_blank" rel="nofollow noopener noreferrer"></a><a href="https://t.me/EmigrantLivesBot" target="_blank" class="extlink extlink-icon-1 "  rel="nofollow noopener noreferrer">t.me/EmigrantLivesBot</a></p>
 <p>The bot employs TinyGods' data processing pipeline, fetching and aggregating information from multiple sources including public APIs and websites. </p>
             ]]>
         </content>
