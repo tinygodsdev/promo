@@ -1,5 +1,5 @@
 .PHONY: deploy
-deploy: extract commit-publii
+deploy: clear extract commit-publii
 	git push dokku main
 
 .PHONY: extract
@@ -11,3 +11,10 @@ commit-publii:
 	git add . 
 	git commit -m "site-updates"
 	git push
+
+.PHONY: clear
+clear:
+	rm -rf assets
+	rm -rf authors
+	rm -rf media
+	rm -rf tags
