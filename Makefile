@@ -10,3 +10,4 @@ extract:
 commit-publii:
 	git add . 
 	git commit -m "site-updates"
+	git push
