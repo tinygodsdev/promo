@@ -9,7 +9,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 DefaultContentLanguageInSubdir = false
-publishDir = "../public"
+publishDir = ".."
 
 [languages]
   [languages.en]

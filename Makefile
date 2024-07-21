@@ -1,6 +1,8 @@
 .PHONY: deploy
-deploy: clear extract commit-publii
+deploy: 
 	git push dokku main
+
+# clear extract commit-publii
 
 .PHONY: extract
 extract:
