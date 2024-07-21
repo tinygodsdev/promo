@@ -1,17 +1,21 @@
 .PHONY: deploy
-deploy: 
+deploy: generate commit-static
 	git push dokku main
 
-# clear extract commit-publii
+# clear extract commit-static
+
+.PHONY: generate
+generate:
+	hugo -s promo
 
 .PHONY: extract
 extract:
 	tar -xf tinygodsdev-files.tar --overwrite
 
-.PHONY: commit-publii
-commit-publii:
+.PHONY: commit-static
+commit-static:
 	git add . 
-	git commit -m "publii site updates $(shell date)"
+	git commit -m "static site updates $(shell date)"
 	git push
 
 .PHONY: clear
