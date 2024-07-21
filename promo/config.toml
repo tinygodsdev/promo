@@ -1,0 +1,112 @@
+baseURL = "https://tinygods.dev/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+theme = "hugo-winston-theme"
+themesDir = "themes"
+title = "Tiny Gods Development"
+paginate = 3
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+DefaultContentLanguageInSubdir = false
+publishDir = "../public"
+
+[languages]
+  [languages.en]
+    weight = 1
+    contentDir = "content"
+    languageName = "English"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = 'home'
+        name = 'Home'
+        url = '/'
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Projects"
+        identifier = "projects"
+        weight = 2
+        url = "/posts/"
+      [[languages.en.menu.main]]
+        name = "About"
+        identifier = "about"
+        weight = 3
+        url = "/about/"
+      [[languages.en.menu.main]]
+        name = "Tags"
+        identifier = "tags"
+        weight = 4
+        url = "/tags/"
+      [[languages.en.menu.main]]
+        name = "RU"
+        identifier = "ru"
+        weight = 5
+        url = "/ru/"
+
+  [languages.ru]
+    weight = 2
+    contentDir = "content/ru"
+    languageName = "Русский"
+    [languages.ru.menu]
+      [[languages.ru.menu.main]]
+        identifier = 'home'
+        name = 'Главная'
+        url = '/ru/'
+        weight = 1
+      [[languages.ru.menu.main]]
+        name = "Проекты"
+        identifier = "projects"
+        weight = 2
+        url = "/ru/posts/"
+      [[languages.ru.menu.main]]
+        name = "История"
+        identifier = "about"
+        weight = 3
+        url = "/ru/about/"
+      [[languages.ru.menu.main]]
+        name = "Теги"
+        identifier = "tags"
+        weight = 4
+        url = "/ru/tags/"
+      [[languages.ru.menu.main]]
+        name = "EN"
+        identifier = "en"
+        weight = 5
+        url = "/"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@danipolani"
+  showAuthorOnHomepage = false
+  showAuthorOnPosts = false
+  showIntroContentOnHomepage = true
+  showPostsOnHomepage = true
+  usePaginationOnHomepage = false
+  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
+  sortPostsByDateOldestFirst = false
+  addDot = true
+  addFrame = true
+  highlightColor = '#16DB65'
+  baseColor = "#ffffff"
+  baseOffsetColor = "#eaeaea"
+  headingColor = "#1c1b1d"
+  textColor = "#4e5157"
+  dotColor = "#16DB65"
+  enableGoogleFonts = true 
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
+  fontFamilyHeading = "Wix Madefor Text"
+  fontFamilyParagraph = "Noto Sans"
+  fontFamilyMonospace = "monospace"
+
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false

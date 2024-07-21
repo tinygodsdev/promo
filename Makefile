@@ -9,7 +9,7 @@ extract:
 .PHONY: commit-publii
 commit-publii:
 	git add . 
-	git commit -m "site-updates"
+	git commit -m "publii site updates $(shell date)"
 	git push
 
 .PHONY: clear
