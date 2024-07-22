@@ -102,5 +102,17 @@
                 hreflang="ru"
                 href="https://tinygods.dev/ru/about/"
                 />
+  </url><url>
+    <loc>https://tinygods.dev/ru/price-monitoring/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tinygods.dev/price-monitoring/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://tinygods.dev/ru/price-monitoring/"
+                />
   </url>
 </urlset>

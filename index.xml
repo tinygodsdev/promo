@@ -30,6 +30,15 @@ Emigrant Lives Bot
     </item>
     
     <item>
+      <title>Price Monitoring</title>
+      <link>https://tinygods.dev/price-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tinygods.dev/price-monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Programmers are tiny gods</title>
       <link>https://tinygods.dev/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,6 +54,17 @@ Emigrant Lives Bot
       
       <guid>https://tinygods.dev/ru/about/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Мониторинг цен</title>
+      <link>https://tinygods.dev/ru/price-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tinygods.dev/ru/price-monitoring/</guid>
+      <description>Автоматизируем для вас сбор и анализ цен конкурентов. Сосредоточьтесь на развитии своего онлайн-магазина, пока мы будем держать руку на пульсе и мониторить рынок.
+Что мы можем для вас сделать? Получите отчет с полным анализом цен на рынке онлайн-магазинов. Вам будут доступны следующие показатели:
+ цены конкурентов на аналогичные товары средняя цена на рынке медианная цена среди продавцов минимальная и максимальная цена на рынке отличие вашей цены от средней, медианной и минимальной в процентах рекомендованная цена  На большом наборе данных есть возможность рассчитать сезонную динамику и предсказать колебания рынка.</description>
     </item>
     
   </channel>
