@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Tiny Gods Development</title>
+    <title>Pages on TinyGods.Dev</title>
     <link>https://tinygods.dev/pages/</link>
-    <description>Recent content in Pages on Tiny Gods Development</description>
+    <description>Recent content in Pages on TinyGods.Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://tinygods.dev/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tinygods.dev/price-monitoring/</guid>
-      <description></description>
+      <description>We automate the collection and analysis of competitor prices for you. Focus on developing your online store while we keep our finger on the pulse and monitor the market.
+What Can We Do for You? Get a report with a complete analysis of prices in online stores. You will have access to the following indicators:
+ Competitor prices for similar products Average market price Median price among sellers Minimum and maximum market price Difference between your price and the average, median, and minimum prices in percentage Recommended price  With a large dataset, it is possible to calculate seasonal dynamics and predict market fluctuations.</description>
     </item>
     
     <item>
