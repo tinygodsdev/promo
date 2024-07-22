@@ -91,12 +91,12 @@ publishDir = ".."
   sortPostsByDateOldestFirst = false
   addDot = true
   addFrame = false
-  highlightColor = '#16DB65'
+  highlightColor = '#80b724'
   baseColor = "#ffffff"
   baseOffsetColor = "#eaeaea"
   headingColor = "#1c1b1d"
   textColor = "#4e5157"
-  dotColor = "#16DB65"
+  dotColor = "#80b724"
   enableGoogleFonts = true 
   googleFontsUrl = "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
   fontFamilyHeading = "Wix Madefor Text"
