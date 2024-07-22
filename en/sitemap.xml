@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tinygods.dev/posts/emigrant-lives-bot/</loc>
-    <lastmod>2024-07-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://tinygods.dev/ru/posts/emigrant-lives-bot/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tinygods.dev/posts/emigrant-lives-bot/"
-                />
-  </url><url>
     <loc>https://tinygods.dev/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -30,6 +17,19 @@
   </url><url>
     <loc>https://tinygods.dev/ru/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tinygods.dev/posts/emigrant-lives-bot/</loc>
+    <lastmod>2024-07-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://tinygods.dev/ru/posts/emigrant-lives-bot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tinygods.dev/posts/emigrant-lives-bot/"
+                />
   </url><url>
     <loc>https://tinygods.dev/posts/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
@@ -76,18 +76,6 @@
     <loc>https://tinygods.dev/ru/posts/emigrant-lives-bot/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tinygods.dev/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://tinygods.dev/ru/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tinygods.dev/about/"
-                />
-  </url><url>
     <loc>https://tinygods.dev/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -110,6 +98,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://tinygods.dev/pages/"
+                />
+  </url><url>
+    <loc>https://tinygods.dev/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://tinygods.dev/ru/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tinygods.dev/about/"
                 />
   </url><url>
     <loc>https://tinygods.dev/ru/about/</loc>
