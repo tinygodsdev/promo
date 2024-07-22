@@ -9,6 +9,10 @@ Tiny Gods Development specializes in custom data collection solutions. We offer 
 
 Our mission is to provide tailored, efficient, and innovative data collection processes to meet the unique needs of our clients.
 
+## Our Services:
+
+## - [Price Monitoring](/price-monitoring/)
+
 ## Solution architecture:
 ![Solution architecture](/images/SA-en.jpg)
 All components (or some of them) can be hosted by us or provided as containers. 
