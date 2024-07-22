@@ -12,6 +12,7 @@ Our mission is to provide tailored, efficient, and innovative data collection pr
 ## Our Services:
 
 ## - [Price Monitoring](/price-monitoring/)
+We automate the collection and analysis of competitor prices for you. Focus on developing your online store while we keep our finger on the pulse. The market situation at your fingertips.
 
 ## Solution architecture:
 ![Solution architecture](/images/SA-en.jpg)
