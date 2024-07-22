@@ -24,3 +24,7 @@ clear:
 	rm -rf authors
 	rm -rf media
 	rm -rf tags
+
+.PHONY: run
+run:
+	hugo server -D -s promo

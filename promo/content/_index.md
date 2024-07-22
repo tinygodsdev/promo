@@ -1,5 +1,5 @@
 ---
-title: Programmers are tiny gods
+title: Collect. Process. Succeed
 description: Custom data solutions
 ---
 
