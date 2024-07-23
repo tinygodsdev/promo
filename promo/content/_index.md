@@ -2,7 +2,7 @@
 title: Collect. Process. Succeed
 description: Custom data solutions
 ---
-{{< styles >}}
+
 
 
 ## About Us:

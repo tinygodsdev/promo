@@ -5,4 +5,3 @@ description: 'As soon as Winston had dealt with each of the messages, he clipped
 image: images/cctv.jpeg
 draft: true
 ---
-{{< styles >}}

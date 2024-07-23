@@ -3,7 +3,7 @@ title: 'Price Monitoring'
 url: "/price-monitoring/"
 image: images/price-monitoring.jpg
 ---
-{{< styles >}}
+
 
 We automate the collection and analysis of competitor prices for you. Focus on developing your online store while we keep our finger on the pulse and monitor the market.
 

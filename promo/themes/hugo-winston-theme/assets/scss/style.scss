@@ -1,14 +1,31 @@
+$font-family-heading: {{ .Site.Params.fontFamilyHeading | default "'Poppins', sans-serif" }};
+$font-family-paragraph: {{ .Site.Params.fontFamilyParagraph | default "'Helvetica', sans-serif" }};
+$font-family-monospace: {{ .Site.Params.fontFamilyMonospace | default "monospace" }};
+$base-color: {{ .Site.Params.baseColor | default "#ffffff" }};
+$base-offset-color: {{ .Site.Params.baseOffsetColor | default "#eaeaea" }};
+$highlight-color: {{ .Site.Params.highlightColor | default "#7b16ff" }};
+$heading-color: {{ .Site.Params.headingColor | default "#1c1b1d" }};
+$text-color: {{ .Site.Params.textColor | default "#4e5157" }};
+$dot-color: {{ .Site.Params.dotColor | default "#7b16ff" }};
+
 :root {
-  --font-family-heading: {{ .Site.Params.fontFamilyHeading | default "'Poppins', sans-serif" }};
-  --font-family-paragraph: {{ .Site.Params.fontFamilyParagraph | default "'Helvetica', sans-serif" }};
-  --font-family-monospace: {{ .Site.Params.fontFamilyMonospace | default "monospace" }};
-  --base-color: {{ .Site.Params.baseColor | default "#ffffff" }};
-  --base-offset-color: {{ .Site.Params.baseOffsetColor | default "#eaeaea" }};
-  --highlight-color: {{ .Site.Params.highlightColor | default "#7b16ff" }};
-  --heading-color: {{ .Site.Params.headingColor | default "#1c1b1d" }};
-  --text-color: {{ .Site.Params.textColor | default "#4e5157" }};
-  --dot-color: {{ .Site.Params.dotColor | default "#7b16ff" }};
+  --font-family-heading: #{$font-family-heading};
+  --font-family-paragraph: #{$font-family-paragraph};
+  --font-family-monospace: #{$font-family-monospace};
+  --base-color: #{$base-color};
+  --base-offset-color: #{$base-offset-color};
+  --highlight-color: #{$highlight-color};
+  --heading-color: #{$heading-color};
+  --text-color: #{$text-color};
+  --dot-color: #{$dot-color};
 }
+
+$card-radius: 16px;
+$card-padding: 30px;
+$card-margin-bottom: 20px;
+$card-gap: 20px;
+$block-bg-color: #{$base-offset-color};
+
 
 $breakpoints: (
   'small': 767px,
@@ -40,14 +57,18 @@ body {
   margin: 0;
   padding: 20px;
   overflow-x: hidden;
+
   @include breakpoint('small') {
     padding: 50px;
-  }
-  &.frame {
-    min-height: 100vh;
-    border: 18px solid var(--highlight-color);
+    
+    &.frame {
+      min-height: 100vh;
+      border: 18px solid var(--highlight-color);
+      
+    }
   }
 }
+
 
 .wrapper {
   max-width: 1000px;

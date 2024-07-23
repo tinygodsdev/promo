@@ -32,16 +32,16 @@ ul {
 }
 
 .content {
-  font-size: 18px;
+  font-size: 22px;
   p {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
   }
   h1 {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 1.6;
     font-weight: bold;
     margin-top: 30px;
@@ -65,7 +65,7 @@ ul {
     }
   }
   h3 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.4;
     font-weight: bold;
     margin-top: 30px;
@@ -89,12 +89,14 @@ ul {
     margin-top: 10px;
     margin-bottom: 20px;
     li {
-      font-size: 18px;
-      line-height: 20px;
+      line-height: 1.2em;
       margin-bottom: 10px;
-      margin-left: 0;
+      margin-left: 10px;
       @include breakpoint('small') {
         margin-left: 20px;
+      }
+      &::marker {
+        color: var(--dot-color);
       }
     }
     @include breakpoint('small') {
@@ -112,7 +114,7 @@ ul {
     padding: 20px;
   }
   blockquote p {
-    font-size: 20px;
+    font-size: 24px;
     display: inline;
     color: var(--color-base-text);
   }
@@ -164,5 +166,66 @@ ul {
     li {
       list-style: decimal;
     }
+  }
+}
+
+
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin shadow {
+  box-shadow: 0 .8em .4em -0.8em rgba(0, 0, 0, 0.1),
+              0 1.2em .8em -1.2em rgba(0, 0, 0, 0.15),
+              0 1.6em 1.2em -1.6em rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background: linear-gradient(135deg, $dot-color 0%, darken($dot-color, 10%) 100%);
+  @include border-radius($card-radius);
+  padding: $card-padding;
+  color: white;
+  margin-bottom: $card-margin-bottom;
+  flex: 1 1 calc(50% - $card-margin-bottom);
+  box-sizing: border-box;
+
+  &-header {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &-body {
+    // Add styles for card-body if needed
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    margin: 10px 0;
+  }
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $card-gap;
+}
+
+.shadow {
+  @include shadow;
+}
+
+img {
+  @include border-radius($card-radius);
+}
+
+.block {
+  background: $block-bg-color;
+  @include border-radius($card-radius);
+
+  &-body {
+    padding: $card-padding;
   }
 }
