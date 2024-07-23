@@ -7,6 +7,7 @@ imageAltAttribute:
 tags:
    - telegram
 ---
+{{< styles >}}
 
 A demo bot that provides insights on cities with large Russian expat communities. Perfect for potential movers or the curious!
 

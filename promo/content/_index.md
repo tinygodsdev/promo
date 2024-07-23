@@ -2,12 +2,16 @@
 title: Collect. Process. Succeed
 description: Custom data solutions
 ---
+{{< styles >}}
+
 
 ## About Us:
 
+{{< block >}}
 Tiny Gods Development specializes in custom data collection solutions. We offer a range of services including the development of custom parsers, APIs for data retrieval, Telegram bots, and more.
 
 Our mission is to provide tailored, efficient, and innovative data collection processes to meet the unique needs of our clients.
+{{< /block >}}
 
 ## Our Services:
 

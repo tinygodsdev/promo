@@ -2,6 +2,7 @@
 title: Collect. Process. Succeed
 description: Индивидуальные решения для сбора и обработки данных
 ---
+{{< styles >}}
 
 ## О нас:
 

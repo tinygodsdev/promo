@@ -6,3 +6,4 @@ menu:
   main:
     name: "About"
 ---
+{{< styles >}}
