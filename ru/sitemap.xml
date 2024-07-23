@@ -114,5 +114,17 @@
                 hreflang="ru"
                 href="https://tinygods.dev/ru/price-monitoring/"
                 />
+  </url><url>
+    <loc>https://tinygods.dev/ru/telegram-bot/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tinygods.dev/telegram-bot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://tinygods.dev/ru/telegram-bot/"
+                />
   </url>
 </urlset>

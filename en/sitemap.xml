@@ -126,6 +126,20 @@
   </url><url>
     <loc>https://tinygods.dev/ru/about/</loc>
   </url><url>
+    <loc>https://tinygods.dev/telegram-bot/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://tinygods.dev/ru/telegram-bot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tinygods.dev/telegram-bot/"
+                />
+  </url><url>
     <loc>https://tinygods.dev/ru/price-monitoring/</loc>
+  </url><url>
+    <loc>https://tinygods.dev/ru/telegram-bot/</loc>
   </url>
 </urlset>
