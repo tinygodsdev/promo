@@ -4,10 +4,10 @@
   --font-family-monospace: monospace;
   --base-color: #ffffff;
   --base-offset-color: #eaeaea;
-  --highlight-color: #9E59DF;
+  --highlight-color: #9777DC;
   --heading-color: #0F1108;
   --text-color: #0F1108;
-  --dot-color: #5FCC21; }
+  --dot-color: #70C142; }
 
 body, html {
   margin: 0;
@@ -237,7 +237,7 @@ ul {
     list-style: decimal; }
 
 .card {
-  background: linear-gradient(135deg, #5FCC21 0%, #4ba01a 100%);
+  background: linear-gradient(135deg, #70C142 0%, #599d33 100%);
   border-radius: 16px;
   padding: 30px;
   color: white;
