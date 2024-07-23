@@ -20,10 +20,10 @@ $dot-color: {{ .Site.Params.dotColor | default "#7b16ff" }};
   --dot-color: #{$dot-color};
 }
 
-$card-radius: 16px;
+$card-radius: 22px;
 $card-padding: 30px;
-$card-margin-bottom: 20px;
-$card-gap: 20px;
+$card-margin-bottom: 40px;
+$card-gap: 40px;
 $block-bg-color: #{$base-offset-color};
 
 

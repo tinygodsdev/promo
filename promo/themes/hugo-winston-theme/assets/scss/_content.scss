@@ -59,7 +59,7 @@ ul {
     &:first-of-type {
       margin-top: 0;
     }
-    @include breakpoint('small') {
+    @include breakpoint("small") {
       font-size: 30px;
       line-height: 1.4;
     }
@@ -92,14 +92,14 @@ ul {
       line-height: 1.2em;
       margin-bottom: 10px;
       margin-left: 10px;
-      @include breakpoint('small') {
+      @include breakpoint("small") {
         margin-left: 20px;
       }
       &::marker {
         color: var(--dot-color);
       }
     }
-    @include breakpoint('small') {
+    @include breakpoint("small") {
       margin-left: 20px;
     }
   }
@@ -169,16 +169,117 @@ ul {
   }
 }
 
-
-
 @mixin border-radius($radius) {
   border-radius: $radius;
 }
 
 @mixin shadow {
-  box-shadow: 0 .8em .4em -0.8em rgba(0, 0, 0, 0.1),
-              0 1.2em .8em -1.2em rgba(0, 0, 0, 0.15),
-              0 1.6em 1.2em -1.6em rgba(0, 0, 0, 0.2);
+  $dark-highlight-color: darken($highlight-color, 40%);
+  box-shadow:
+    0 10px 15px rgba($dark-highlight-color, 0.15),
+    0 20px 30px rgba($dark-highlight-color, 0.2),
+    0 30px 40px rgba($dark-highlight-color, 0.25);
+  box-shadow:
+    rgba($dark-highlight-color, 0.1) 0px 8px 24px,
+    rgba($dark-highlight-color, 0.1) 0px 16px 56px,
+    rgba($dark-highlight-color, 0.1) 0px 24px 80px;
+}
+
+$image-width: 20%;
+.service {
+  display: flex;
+  margin-bottom: $card-margin-bottom;
+  text-decoration: none;
+  background-color: #fff;
+  padding: $card-padding;
+  border-radius: $card-radius;
+  color: inherit;
+
+  .service-link {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    flex-direction: column;
+
+    &:hover .service-header {
+      text-decoration: underline;
+    }
+
+    &:hover .service-image img {
+      filter: opacity(100%);
+    }
+
+    .service-image {
+      width: $image-width;
+      margin: auto;
+      margin-top: 15px;
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        filter: opacity(90%); // Устанавливаем яркость по умолчанию
+        transition: filter 0.3s; // Добавляем плавный переход
+      }
+    }
+
+    .service-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1;
+
+      .service-header {
+        font-weight: bold;
+        text-align: center; // Выравниваем заголовок по центру на маленьких экранах
+        color: $highlight-color;
+        font-size: 2.5em;
+        margin-bottom: 15px;
+        margin-top: 0;
+      }
+
+      .service-body {
+        p {
+          margin: 0; // Убираем стандартные отступы у параграфов
+        }
+      }
+    }
+  }
+
+  @include breakpoint("small") {
+    flex-direction: row; // Меняем направление флекс-контейнера на горизонтальное
+
+    .service-link {
+      flex-direction: row; // Меняем направление флекс-контейнера на горизонтальное
+
+      .service-image {
+        flex: 0 0 $image-width;
+        width: $image-width;
+        margin-bottom: 0; // Убираем отступ снизу
+        margin-top: 0;
+
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+
+      .service-content {
+        .service-header {
+          text-align: left; // Выравниваем заголовок слева на больших экранах
+        }
+      }
+    }
+  }
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $card-gap;
+  row-gap: 0;
+  margin-bottom: $card-margin-bottom;
 }
 
 .card {
@@ -187,17 +288,25 @@ ul {
   padding: $card-padding;
   color: white;
   margin-bottom: $card-margin-bottom;
-  flex: 1 1 calc(50% - $card-margin-bottom);
   box-sizing: border-box;
+  @include shadow;
+
+  // Определяем ширину карточек для различных экранов
+  width: 100%; // По умолчанию для маленьких экранов
+
+  @include breakpoint('medium') {
+    width: calc(50% - #{$card-gap}); // Для средних экранов
+  }
 
   &-header {
     font-size: 1.1em;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: var(--font-family-heading);
   }
 
   &-body {
-    // Add styles for card-body if needed
+    font-size: 0.9em;
   }
 
   hr {
@@ -205,12 +314,6 @@ ul {
     border-top: 1px solid rgba(255, 255, 255, 0.6);
     margin: 10px 0;
   }
-}
-
-.cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $card-gap;
 }
 
 .shadow {
