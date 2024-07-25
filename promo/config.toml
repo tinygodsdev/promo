@@ -90,18 +90,19 @@ publishDir = ".."
   limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
   sortPostsByDateOldestFirst = false
   addDot = true
-  addFrame = true
-  highlightColor = '#9777DC'
-  baseColor = "#ffffff"
+  addFrame = false
+  highlightColor = '#966CF0'
+  baseColor = "#F5F5F5"
   baseOffsetColor = "#eaeaea"
   headingColor = "#0F1108"
   textColor = "#0F1108"
-  dotColor = "#70C142"
+  dotColor = "#966CF0"
   enableGoogleFonts = true 
   googleFontsUrl = "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
   fontFamilyHeading = "Wix Madefor Text"
   fontFamilyParagraph = "Noto Sans"
   fontFamilyMonospace = "monospace"
+  email = "mytasmic@gmail.com"
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup]

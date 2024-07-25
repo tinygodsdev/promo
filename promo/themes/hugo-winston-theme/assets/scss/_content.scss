@@ -41,7 +41,7 @@ ul {
     margin-bottom: 20px;
   }
   h1 {
-    font-size: 36px;
+    font-size: 136px;
     line-height: 1.6;
     font-weight: bold;
     margin-top: 30px;
@@ -174,150 +174,64 @@ ul {
 }
 
 @mixin shadow {
-  $dark-highlight-color: darken($highlight-color, 40%);
   box-shadow:
-    0 10px 15px rgba($dark-highlight-color, 0.15),
-    0 20px 30px rgba($dark-highlight-color, 0.2),
-    0 30px 40px rgba($dark-highlight-color, 0.25);
-  box-shadow:
-    rgba($dark-highlight-color, 0.1) 0px 8px 24px,
-    rgba($dark-highlight-color, 0.1) 0px 16px 56px,
-    rgba($dark-highlight-color, 0.1) 0px 24px 80px;
+    rgba($text-color, 0.1) 0px 8px 24px,
+    rgba($text-color, 0.1) 0px 16px 56px,
+    rgba($text-color, 0.1) 0px 24px 80px;
 }
 
 $image-width: 20%;
-.service {
-  display: flex;
-  margin-bottom: $card-margin-bottom;
-  text-decoration: none;
-  background-color: #fff;
-  padding: $card-padding;
-  border-radius: $card-radius;
-  color: inherit;
-
-  .service-link {
-    display: flex;
-    width: 100%;
-    text-decoration: none;
-    color: inherit;
-    flex-direction: column;
-
-    &:hover .service-header {
-      text-decoration: underline;
-    }
-
-    &:hover .service-image img {
-      filter: opacity(100%);
-    }
-
-    .service-image {
-      width: $image-width;
-      margin: auto;
-      margin-top: 15px;
-      img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        filter: opacity(90%); // Устанавливаем яркость по умолчанию
-        transition: filter 0.3s; // Добавляем плавный переход
-      }
-    }
-
-    .service-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      flex: 1;
-
-      .service-header {
-        font-weight: bold;
-        text-align: center; // Выравниваем заголовок по центру на маленьких экранах
-        color: $highlight-color;
-        font-size: 2.5em;
-        margin-bottom: 15px;
-        margin-top: 0;
-      }
-
-      .service-body {
-        p {
-          margin: 0; // Убираем стандартные отступы у параграфов
-        }
-      }
-    }
-  }
-
-  @include breakpoint("small") {
-    flex-direction: row; // Меняем направление флекс-контейнера на горизонтальное
-
-    .service-link {
-      flex-direction: row; // Меняем направление флекс-контейнера на горизонтальное
-
-      .service-image {
-        flex: 0 0 $image-width;
-        width: $image-width;
-        margin-bottom: 0; // Убираем отступ снизу
-        margin-top: 0;
-
-        img {
-          width: 100%;
-          height: auto;
-          object-fit: cover;
-        }
-      }
-
-      .service-content {
-        .service-header {
-          text-align: left; // Выравниваем заголовок слева на больших экранах
-        }
-      }
-    }
-  }
-}
-
 .cards-container {
   display: flex;
   flex-wrap: wrap;
   gap: $card-gap;
   row-gap: 0;
-  margin-bottom: $card-margin-bottom;
 }
 
 .card {
-  background: linear-gradient(135deg, $dot-color 0%, darken($dot-color, 10%) 100%);
   @include border-radius($card-radius);
-  padding: $card-padding;
-  color: white;
   margin-bottom: $card-margin-bottom;
   box-sizing: border-box;
-  @include shadow;
 
   // Определяем ширину карточек для различных экранов
   width: 100%; // По умолчанию для маленьких экранов
 
-  @include breakpoint('medium') {
+  @include breakpoint("small") {
     width: calc(50% - #{$card-gap}); // Для средних экранов
   }
 
   &-header {
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-top: 0;
     font-family: var(--font-family-heading);
   }
 
-  &-body {
-    font-size: 0.9em;
+  &:hover .card-header {
+    text-decoration: underline;
   }
 
-  hr {
-    border: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.6);
-    margin: 10px 0;
+  &:hover .card-image img {
+    filter: opacity(100%);
   }
-}
 
-.shadow {
-  @include shadow;
+  .card-image {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    img {
+      height: 120px;
+      width: auto;
+      object-fit: cover;
+      filter: opacity(80%); // Устанавливаем яркость по умолчанию
+      transition: filter 0.3s; // Добавляем плавный переход
+    }
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 img {
@@ -330,5 +244,165 @@ img {
 
   &-body {
     padding: $card-padding;
+  }
+}
+
+.shadow {
+  @include shadow;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+
+  .hero-content {
+    display: flex; /* Align headers and image side by side */
+    align-items: center; /* Align vertically to the center */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    position: relative;
+    z-index: 2; /* Ensure content is above the image */
+
+    .hero-headers {
+      flex: 1; /* Allow headers to take up available space */
+      max-width: 80%; /* Adjust as needed */
+      margin-bottom: 20px;
+      @include breakpoint("small") {
+        max-width: 60%; /* Adjust as needed */
+      }
+      h1 {
+        margin-bottom: 15px;
+      }
+      h2 {
+        margin-bottom: 0;
+        font-size: 24px;
+      }
+    }
+
+    .hero-image-container {
+      display: none; /* Hidden by default */
+      max-height: 100%; /* Ensure the image does not exceed the container height */
+      flex-shrink: 0; /* Prevent image from shrinking */
+      overflow: hidden;
+      margin-left: 10px; /* Space between headers and image */
+
+      .hero-image {
+        max-width: 100%; /* Ensure image does not exceed container width */
+        height: auto; /* Maintain aspect ratio */
+      }
+    }
+  }
+
+  .hero-body {
+    width: 100%; /* Full width */
+  }
+
+  @include breakpoint("small") {
+    .hero-content {
+      .hero-image-container {
+        display: block; /* Display image container */
+        width: auto; /* Allow image container to adjust width */
+        max-width: 40%; /* Adjust width based on design requirements */
+        align-self: flex-start; /* Align image to the start of the container */
+      }
+    }
+  }
+}
+
+.divider {
+  width: 100%;
+  height: 120px; /* Adjust the height as needed */
+  background-image: url('{{ .Get "image" }}'); /* Image URL passed via the shortcode */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  background-size: contain; /* Scale the image to fit, maintaining aspect ratio */
+  margin: 0px 0; /* Adjust spacing above and below the divider */
+}
+
+.cta {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  margin: 40px 0 20px 0; /* Spacing around the CTA block */
+  padding: $card-padding;
+  background-color: #ebebeb; /* Background color */
+  border-radius: $card-radius;
+  
+  .cta-content {
+    flex: 1; /* Content takes up available space */
+    margin-right: 20px; /* Space between content and form */
+    padding: 0 20px;
+    
+    h2 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      margin-top: -15px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .cta-form {
+    flex: 1; /* Form takes up available space */
+    min-width: 300px; /* Ensure minimum width for the form */
+    
+    iframe {
+      width: 100%;
+      height: 700px;
+      min-height: 400px; /* Minimum height for the form */
+      border: 0;
+      border-radius: $card-radius;
+      @include shadow; /* Add shadow effect */
+    }
+  }
+
+  .cta-image { 
+    display: block; /* Hide image by default */
+    margin-top: 20px; /* Space between form and image */
+    text-align: center; /* Center image */
+    img {
+      max-width: 50%; /* Ensure image does not exceed container width */
+      height: auto; /* Maintain aspect ratio */
+      filter: opacity(80%); /* Set default brightness */
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column; /* Stack columns on smaller screens */
+    
+    .cta-content {
+      margin-right: 0;
+      margin-bottom: 20px; /* Space between stacked elements */
+    }
+
+    .cta-image {
+      display: none; /* Display image on smaller screens */
+      margin-top: 20px; /* Space between image and form */
+    }
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  font-size: 18px;
+  background-color: var(--heading-color);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: var(--highlight-color);
   }
 }

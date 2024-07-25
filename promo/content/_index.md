@@ -1,11 +1,20 @@
 ---
-title: Collect. Process. Succeed
+title:
 description: Custom data solutions
 ---
 
+{{< hero 
+    title="We make data accessible" 
+    intro="Tiny Gods are at your service" 
+    buttonText="Let's get started"
+    image="/images/goggles.png" >}}
+Gathering and managing data can be challenging. At Tiny Gods Development, we specialize in solving these problems by offering custom data collection solutions. Whether you need to integrate data from various sources or streamline processes with APIs and bots, we're here to make data work for you.
+{{< /hero >}}
 
+{{< divider image="/images/divider.png" >}}
 
-## About Us:
+## Collect. Process. Succeed{{< dot >}}
+### And we will support you.
 
 Tiny Gods Development specializes in custom data collection solutions. We offer a range of services including the development of custom parsers, APIs for data retrieval, Telegram bots, and more.
 
@@ -13,16 +22,23 @@ Our mission is to provide tailored, efficient, and innovative data collection pr
 
 ## Our Services:
 
-{{< service title="Price Monitoring" link="/price-monitoring/" image="/images/price-card-logo.png">}}
-We automate the collection and analysis of competitor prices for you. Focus on developing your online store while we keep our finger on the pulse. The market situation at your fingertips.
-{{< /service >}}
+<div class="cards-container">
+    {{< card title="Price Monitoring" link="/price-monitoring/" image="/images/strawberry.png">}}
+    We automate the collection and analysis of competitor prices for you. Focus on developing your business while we keep a finger on the pulse. The market situation at your fingertips.
+    {{< /card >}}
+    {{< card title="Telegram Bots" link="/telegram-bot/" image="/images/globe.png">}}
+    We create custom Telegram bots to meet your business needs. Automate processes, enhance customer interaction, and boost efficiency with our tailored solutions.
+    {{< /card >}}
+</div>
 
-{{< service title="Telegram Bots" link="/telegram-bot/" image="/images/tg-card-logo.png">}}
-We create custom Telegram bots to meet your business needs. Automate processes, enhance customer interaction, and boost efficiency with our tailored solutions. Whether it's notifications, order processing, or customer support, our bots will help your business excel.
-{{< /service >}}
+{{< divider image="/images/divider.png" >}}
 
-## Solution architecture:
-![Solution architecture](/images/SA-en.jpg)
-All components (or some of them) can be hosted by us or provided as containers. 
-
-<iframe class="airtable-embed" src="https://airtable.com/embed/appnzmRUtyRqKiKbK/pag16Kca2u6AjOXiT/form" frameborder="0" onmousewheel="" width="100%" height="700" style="background: transparent; border: 0px solid #ccc;"></iframe>
+{{< cta 
+    title="Get started today" 
+    subtitle="Let's talk about a project, collaboration or an idea you may have" 
+    formUrl="https://airtable.com/embed/appnzmRUtyRqKiKbK/pag16Kca2u6AjOXiT/form"
+    emailText="Contact us at"
+    useFormText="or use the form."
+    image="/images/hand.png" >}}
+Let's work together to streamline your data processes and unlock new opportunities.
+{{< /cta >}}

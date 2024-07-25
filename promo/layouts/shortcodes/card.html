@@ -1,9 +1,29 @@
-<div class="card shadow">
-  <div class="card-header">
-    {{ .Get "title" }}
+<div class="card">
+  {{ if .Get "link" }}
+    <a href="{{ .Get "link" }}" class="card-link">
+  {{ end }}
+  
+  {{ if .Get "image" }}
+    <div class="card-image">
+      <img src="{{ .Get "image" }}" alt="{{ .Get "title" }}">
+    </div>
+  {{ end }}
+  
+  <div class="card-content">
+    {{ if .Get "title" }}
+      <h3 class="card-header">
+        {{ .Get "title" }}
+      </h3>
+    {{ end }}
+    
+    <div class="card-body">
+      <p>
+        {{ .Inner }}
+      </p>
+    </div>
   </div>
-  <hr />
-  <div class="card-body">
-    {{ .Inner }}
-  </div>
+  
+  {{ if .Get "link" }}
+    </a>
+  {{ end }}
 </div>

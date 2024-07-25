@@ -23,7 +23,7 @@ $dot-color: {{ .Site.Params.dotColor | default "#7b16ff" }};
 $card-radius: 22px;
 $card-padding: 30px;
 $card-margin-bottom: 40px;
-$card-gap: 40px;
+$card-gap: 60px;
 $block-bg-color: #{$base-offset-color};
 
 
@@ -71,6 +71,10 @@ body {
 
 
 .wrapper {
-  max-width: 1000px;
+  max-width: 1080px;
   margin: 0 auto;
+}
+
+iframe {
+  border-radius: $card-radius;
 }

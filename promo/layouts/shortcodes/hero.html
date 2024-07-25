@@ -1,0 +1,21 @@
+<div class="hero">
+    <div class="hero-content">
+        <div class="hero-headers">
+            <h2>{{ .Get "intro" }}</h2>
+            <h1 class="hero-header">
+                {{ .Get "title" }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}
+            </h1>
+            <button class="button" onclick="window.location.href='#cta'">
+                {{ .Get "buttonText" }}
+            </button>            
+        </div>
+        <div class="hero-image-container">
+            <img src="{{ .Get "image" }}" alt="Hero Image" class="hero-image" />
+        </div>
+    </div>
+    <div class="hero-body">
+        <p>
+            {{ .Inner }}
+        </p>
+    </div>
+</div>
