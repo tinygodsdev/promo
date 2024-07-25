@@ -12,7 +12,7 @@
   <div class="card-content">
     {{ if .Get "title" }}
       <h3 class="card-header">
-        {{ .Get "title" }}
+        {{ .Get "title" }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}
       </h3>
     {{ end }}
     

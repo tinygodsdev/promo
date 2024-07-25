@@ -1,7 +1,7 @@
 ---
 title: 'Price Monitoring'
 url: "/price-monitoring/"
-image: images/price-monitoring.jpg
+image: 
 ---
 
 
@@ -29,19 +29,19 @@ With a large dataset, it is possible to calculate seasonal dynamics and predict 
 ## Benefits
 
 <div class="cards-container">
-  {{< card title="What You Need, When You Need It ⏳" >}}
+  {{< card title="What You Need, When You Need It" image="/images/compass.png">}}
   Our algorithms collect and update information about your competitors' prices at the frequency you need, providing you with the most up-to-date data. This allows you to react instantly to changes and maintain competitiveness.
   {{< /card >}}
 
-  {{< card title="Ease of Use 🖐️" >}}
+  {{< card title="Ease of Use" image="/images/hat.png">}}
   We compile all information into simple and understandable reports that can be fully customized to your needs.
   {{< /card >}}
 
-  {{< card title="Analytics and Recommendations 📈" >}}
+  {{< card title="Analytics and Recommendations" image="/images/scroll2.png">}}
   We not only collect data but also provide you with a detailed analysis of the market situation. Our reports include recommendations for price adjustments, trend identification, and the discovery of new opportunities to increase profits.
   {{< /card >}}
 
-  {{< card title="Flexible Pricing 💸" >}}
+  {{< card title="Flexible Pricing" image="/images/scales.png">}}
   We offer different cooperation options that are suitable for both small online stores and large retailers. Regardless of the scale of your business, we will find a suitable option that meets your needs and budget.
   {{< /card >}}
 </div>

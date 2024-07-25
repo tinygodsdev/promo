@@ -36,6 +36,21 @@ $breakpoints: (
   'large': 1200px,
 );
 
+@mixin shadow {
+  box-shadow:
+    rgba($text-color, 0.1) 0px 8px 24px,
+    rgba($text-color, 0.1) 0px 16px 56px,
+    rgba($text-color, 0.1) 0px 24px 80px;
+}
+
+.shadow {
+  @include shadow;
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
 @import 'normalize';
 @import 'breakpoints';
 @import 'header';
@@ -47,6 +62,8 @@ $breakpoints: (
 @import 'pagination';
 @import 'main-menu';
 @import 'main-menu-mobile';
+@import 'cta';
+@import 'card';
 @import 'pygments/github';
 
 html, body {
@@ -80,4 +97,8 @@ body {
 
 iframe {
   border-radius: $card-radius;
+}
+
+img {
+  @include border-radius($card-radius);
 }
