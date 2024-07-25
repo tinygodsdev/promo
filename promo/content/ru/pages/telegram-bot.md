@@ -4,4 +4,14 @@ url: "/ru/telegram-bot/"
 image: 
 ---
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/appnzmRUtyRqKiKbK/pagitBKa2vrKz7Ytx/form" frameborder="0" onmousewheel="" width="100%" height="700" style="background: transparent; border: 0px solid #ccc;"></iframe>
+{{< divider image="/images/divider.png" >}}
+
+{{< cta 
+    title="Начните уже сегодня" 
+    subtitle="Обсудим проект, сотрудничество или идею, которая у вас есть" 
+    formUrl="https://airtable.com/embed/appnzmRUtyRqKiKbK/pagitBKa2vrKz7Ytx/form"
+    emailText="Свяжитесь с нами по адресу"
+    useFormText="или используйте форму."
+    image="/images/hand.png" >}}
+Давайте вместе оптимизируем ваши процессы работы с данными и откроем новые возможности.
+{{< /cta >}}

@@ -4,4 +4,12 @@ url: "/telegram-bot/"
 image: 
 ---
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/appnzmRUtyRqKiKbK/pag16Kca2u6AjOXiT/form" frameborder="0" onmousewheel="" width="100%" height="700" style="background: transparent; border: 0px solid #ccc;"></iframe>
+{{< cta 
+    title="Get started today" 
+    subtitle="Let's talk about a project, collaboration or an idea you may have" 
+    formUrl="https://airtable.com/embed/appnzmRUtyRqKiKbK/pag16Kca2u6AjOXiT/form"
+    emailText="Contact us at"
+    useFormText="or use the form."
+    image="/images/hand.png" >}}
+Let's work together to streamline your data processes and unlock new opportunities.
+{{< /cta >}}
