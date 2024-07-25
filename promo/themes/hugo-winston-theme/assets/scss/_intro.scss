@@ -23,10 +23,10 @@
     }
   }
   p {
-    font-size: 20px;
+    font-size: $paragraph-font-size-small;
     line-height: 26px;
     @include breakpoint('small') {
-      font-size: 22px;
+      font-size: $paragraph-font-size;
       line-height: 32px;
     }
   }
