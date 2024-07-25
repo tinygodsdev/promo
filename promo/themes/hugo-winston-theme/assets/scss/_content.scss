@@ -323,7 +323,7 @@ img {
 .cta {
   display: flex;
   flex-wrap: wrap; /* Allow wrapping on smaller screens */
-  margin: 40px 0 20px 0; /* Spacing around the CTA block */
+  margin: 40px -#{$body-padding} 20px -#{$body-padding}; /* Spacing around the CTA block */
   padding: $card-padding;
   background-color: #ebebeb; /* Background color */
   border-radius: $card-radius;
@@ -335,7 +335,8 @@ img {
     
     h2 {
       margin-top: 0;
-      margin-bottom: 10px;
+      margin-bottom: 25px;
+      line-height: 1;
     }
 
     p {

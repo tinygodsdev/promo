@@ -24,6 +24,7 @@ $card-radius: 22px;
 $card-padding: 30px;
 $card-margin-bottom: 40px;
 $card-gap: 60px;
+$body-padding: 20px;
 $block-bg-color: #{$base-offset-color};
 
 
@@ -55,7 +56,7 @@ body {
   font-family: var(--font-family-paragraph);
   color: var(--text-color);
   margin: 0;
-  padding: 20px;
+  padding: $body-padding;
   overflow-x: hidden;
 
   @include breakpoint('small') {
