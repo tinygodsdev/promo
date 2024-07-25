@@ -1,3 +1,5 @@
 # publii files
 *.tar
 *.zip
+
+promo/resources/_gen/*
