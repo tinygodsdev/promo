@@ -376,10 +376,12 @@ img {
 
   @media (max-width: 768px) {
     flex-direction: column; /* Stack columns on smaller screens */
-    
+    padding: $card-padding $body-padding;
+
     .cta-content {
       margin-right: 0;
       margin-bottom: 20px; /* Space between stacked elements */
+      // padding: 0;
     }
 
     .cta-image {
