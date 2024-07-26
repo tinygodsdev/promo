@@ -9,11 +9,6 @@
       "name": "github",
       "url": "https://github.com/tinygodsdev",
       "image": "images/social/github.svg"
-    },
-    {
-      "name": "linkedin",
-      "url": "https://www.linkedin.com",
-      "image": "images/social/linkedin.svg"
     }
   ]
 }

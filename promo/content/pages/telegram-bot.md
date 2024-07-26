@@ -4,6 +4,8 @@ url: "/telegram-bot/"
 image: 
 ---
 
+{{< divider image="/images/divider.png" >}}
+
 {{< cta 
     title="Get started today" 
     subtitle="Let's talk about a project, collaboration or an idea you may have" 

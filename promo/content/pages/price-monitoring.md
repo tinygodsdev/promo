@@ -4,8 +4,9 @@ url: "/price-monitoring/"
 image: 
 ---
 
-
 We automate the collection and analysis of competitor prices for you. Focus on developing your online store while we keep our finger on the pulse and monitor the market.
+
+{{< divider image="/images/divider.png" >}}
 
 ## What Can We Do for You?
 
@@ -45,6 +46,8 @@ With a large dataset, it is possible to calculate seasonal dynamics and predict 
   We offer different cooperation options that are suitable for both small online stores and large retailers. Regardless of the scale of your business, we will find a suitable option that meets your needs and budget.
   {{< /card >}}
 </div>
+
+{{< divider image="/images/divider.png" >}}
 
 {{< cta 
     title="Get started today" 
