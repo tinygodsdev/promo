@@ -98,11 +98,13 @@ publishDir = ".."
   textColor = "#0F1108"
   dotColor = "#966CF0"
   enableGoogleFonts = true 
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&family=Parisienne&display=swap"
   fontFamilyHeading = "Wix Madefor Text"
   fontFamilyParagraph = "Noto Sans"
   fontFamilyMonospace = "monospace"
-  email = "mytasmic@gmail.com"
+  fontFamilyCursive = "Parisienne"
+  email = "tinygodsdev@gmail.com"
+  motto = "What we think, we become"
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup]

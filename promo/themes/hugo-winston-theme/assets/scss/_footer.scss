@@ -5,6 +5,39 @@
     padding-top: 40px;
   }
 
+  .footer-block {
+    display: inline-block
+  }
+
+  .motto {
+    font-size: 30px;
+    opacity: 0.5;
+    color: var(--heading-color);
+    line-height: 28px;
+    text-align: center;
+    margin: 60px auto;
+    font-style: italic;
+    font-family: var(--font-family-cursive);
+    @include breakpoint("small") {
+      margin-top: 20px;
+      font-size: 40px;
+      line-height: 32px;
+    }
+  }
+
+  .menu-main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    @include breakpoint("small") {
+      margin-bottom: 20px;
+    }
+  }
+
+  .menu-main a {
+    color: var(--heading-color);
+  }
+
   .footer-copyright {
     display: block;
     font-size: 16px;

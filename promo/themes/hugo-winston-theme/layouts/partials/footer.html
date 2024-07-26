@@ -1,4 +1,26 @@
 <div class="footer">
+  {{ if .Site.Params.motto }}
+  <div class="motto">
+    {{ .Site.Params.motto }}
+  </div>
+  {{ end}}
+  {{ if .Site.Params.footerMenu }}
+  <div class="menu-main">
+    <ul>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+      {{ $active = or $active (eq (.URL | relLangURL) ($currentPage.RelPermalink | relLangURL)) }}
+      <li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }}">
+        <a href="{{.URL}}">
+          {{ .Pre }}
+          <span>{{ .Name }}</span>
+        </a>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+  {{ end }}
   {{ if .Site.Data.social.links }}
   <div class="footer-social">
     {{ range .Site.Data.social.links }}
