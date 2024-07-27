@@ -80,7 +80,7 @@ publishDir = ".."
     min = "0.55.0"
 
 [params]
-  google_analytics_id = ""
+  google_analytics_id = "G-HC53FMEYHY"
   twitter_handle = "@danipolani"
   showAuthorOnHomepage = false
   showAuthorOnPosts = false
