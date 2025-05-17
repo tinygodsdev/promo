@@ -6,7 +6,7 @@ image:
 
 Автоматизируем для вас сбор и анализ цен конкурентов. Сосредоточьтесь на развитии своего онлайн-магазина, пока мы будем держать руку на пульсе и мониторить рынок.
 
-{{< divider image="/images/divider.png" >}}
+{{< divider image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/divider.png" >}}
 
 ## Что мы можем для вас сделать?
 
@@ -30,21 +30,21 @@ image:
 ## Преимущества
 
 <div class="cards-container">
-  {{< card title="Что нужно, когда нужно" image="/images/compass.png">}}
+  {{< card title="Что нужно, когда нужно" image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/compass.png">}}
   Наши алгоритмы собирают и обновляют информацию о ценах ваших конкурентов с той периодичностью, которая вам необходима, обеспечивая вас самыми свежими данными. Это позволяет вам моментально реагировать на изменения и сохранять конкурентоспособность.
   {{< /card >}}
-  {{< card title="Удобство использования" image="/images/hat.png">}}
+  {{< card title="Удобство использования" image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/hat.png">}}
   Мы собираем всю информацию в простые и понятные отчеты, которые могут быть полностью кастомизированы под ваши задачи. 
   {{< /card >}}
-  {{< card title="Аналитика и рекомендации" image="/images/scroll2.png">}}
+  {{< card title="Аналитика и рекомендации" image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/scroll2.png">}}
   Мы не только собираем данные, но и предоставляем вам подробный анализ рыночной ситуации. Наши отчеты включают рекомендации по корректировке цен, выявлению трендов и выявлению новых возможностей для увеличения прибыли.
   {{< /card >}}
-  {{< card title="Гибкие тарифные планы" image="/images/scales.png">}}
+  {{< card title="Гибкие тарифные планы" image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/scales.png">}}
   Мы предлагаем разные варианты сотрудничества, которые подойдут как для небольших интернет-магазинов, так и для крупных ритейлеров. Независимо от масштаба вашего бизнеса, мы найдём подходящий вариант, который соответствует вашим потребностям и бюджету.
   {{< /card >}}
 </div>
 
-{{< divider image="/images/divider.png" >}}
+{{< divider image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/divider.png" >}}
 
 {{< cta 
     title="Начните уже сегодня" 
@@ -52,6 +52,6 @@ image:
     formUrl="https://airtable.com/embed/appnzmRUtyRqKiKbK/pagitBKa2vrKz7Ytx/form"
     emailText="Свяжитесь с нами по адресу"
     useFormText="или используйте форму."
-    image="/images/hand.png" >}}
+    image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/hand.png" >}}
 Давайте вместе оптимизируем ваши процессы работы с данными и откроем новые возможности.
 {{< /cta >}}

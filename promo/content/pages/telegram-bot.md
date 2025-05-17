@@ -4,7 +4,7 @@ url: "/telegram-bot/"
 image: 
 ---
 
-{{< divider image="/images/divider.png" >}}
+{{< divider image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/divider.png" >}}
 
 {{< cta 
     title="Get started today" 
@@ -12,6 +12,6 @@ image:
     formUrl="https://airtable.com/embed/appnzmRUtyRqKiKbK/pag16Kca2u6AjOXiT/form"
     emailText="Contact us at"
     useFormText="or use the form."
-    image="/images/hand.png" >}}
+    image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/hand.png" >}}
 Let's work together to streamline your data processes and unlock new opportunities.
 {{< /cta >}}

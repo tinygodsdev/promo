@@ -1,6 +1,5 @@
 .PHONY: deploy
 deploy: generate commit-static
-	git push dokku main
 
 # clear extract commit-static
 

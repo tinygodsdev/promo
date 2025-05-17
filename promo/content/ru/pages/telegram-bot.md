@@ -6,7 +6,7 @@ image:
 
 Автоматизируем процессы и улучшите взаимодействие с клиентами с помощью Телеграм-ботов. Мы разрабатываем ботов, которые облегчают ежедневные задачи и повышают эффективность вашего бизнеса.
 
-{{< divider image="/images/divider.png" >}}
+{{< divider image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/divider.png" >}}
 
 ## Как мы можем помочь?
 
@@ -24,15 +24,15 @@ image:
 ## Преимущества
 
 <div class="cards-container">
-    {{< card title="Эффективное управление временем" image="/images/lantern.png">}}
+    {{< card title="Эффективное управление временем" image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/lantern.png">}}
     Телеграм-боты позволяют автоматизировать рутинные задачи, освобождая время ваших сотрудников для более важных дел. Это повышает общую производительность и позволяет сосредоточиться на стратегическом развитии бизнеса.
     {{< /card >}}
-    {{< card title="Гибкие тарифные планы" image="/images/scales.png">}}
+    {{< card title="Гибкие тарифные планы" image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/scales.png">}}
     Мы предлагаем различные варианты сотрудничества, чтобы удовлетворить потребности как небольших стартапов, так и крупных компаний. Независимо от масштаба вашего бизнеса, мы поможем вам выбрать наиболее подходящий тарифный план.
     {{< /card >}}
 </div>
 
-{{< divider image="/images/divider.png" >}}
+{{< divider image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/divider.png" >}}
 
 {{< cta 
     title="Начните уже сегодня" 
@@ -40,6 +40,6 @@ image:
     formUrl="https://airtable.com/embed/appnzmRUtyRqKiKbK/pagitBKa2vrKz7Ytx/form"
     emailText="Свяжитесь с нами по адресу"
     useFormText="или используйте форму."
-    image="/images/hand.png" >}}
+    image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/hand.png" >}}
 Давайте вместе оптимизируем ваши процессы работы с данными и откроем новые возможности.
 {{< /cta >}}
