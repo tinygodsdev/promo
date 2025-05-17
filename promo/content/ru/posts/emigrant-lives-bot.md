@@ -2,7 +2,7 @@
 title: Телегам-бот Emigrant Lives
 date: 2024-07-07
 description: "Демонстрационный бот, который предоставляет информацию о городах с большими русскоязычными общинами. Идеально подходит для потенциальных переселенцев или просто любопытных! Бот использует платформу обработки данных TinyGods, получая и агрегируя информацию из множества источников, включая публичные API и веб-сайты."
-image: images/emigrantlives.png
+image: https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/emigrantlives.png
 imageAltAttribute: 
 tags:
    - telegram

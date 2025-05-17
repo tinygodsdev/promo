@@ -4,7 +4,7 @@ deploy: generate commit-static
 # clear extract commit-static
 
 .PHONY: generate
-generate:
+generate: clear
 	hugo -s promo
 
 .PHONY: extract
