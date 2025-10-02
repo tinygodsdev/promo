@@ -4,7 +4,7 @@ description: Custom data solutions
 ---
 
 {{< hero 
-    title="We make data accessible" 
+    title="Bringing clarity into complexity" 
     intro="Tiny Gods are at your service" 
     buttonText="Let's get started"
     image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/goggles.png" >}}
@@ -23,7 +23,7 @@ Our mission is to provide tailored, efficient, and innovative data collection pr
 ## Our Services:
 
 <div class="cards-container">
-    {{< card title="Price Monitoring" link="/price-monitoring/" image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/strawberry.png">}}
+    {{< card title="Price Monitoring" link="/price-monitoring/" image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/tinygods.jpg">}}
     We automate the collection and analysis of competitor prices for you. Focus on developing your business while we keep a finger on the pulse. The market situation at your fingertips.
     {{< /card >}}
     {{< card title="Telegram Bots" link="/telegram-bot/" image="https://tgpromo.fra1.cdn.digitaloceanspaces.com/img/globe.png">}}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Tiny Gods Development</title>
+    <link>https://tinygods.dev/ru/pages/</link>
+    <description>Recent content in Pages on Tiny Gods Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://tinygods.dev/ru/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programmers are tiny gods</title>
+      <link>https://tinygods.dev/ru/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tinygods.dev/ru/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Мониторинг цен</title>
+      <link>https://tinygods.dev/ru/price-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tinygods.dev/ru/price-monitoring/</guid>
+      <description>Автоматизируем для вас сбор и анализ цен конкурентов. Сосредоточьтесь на развитии своего онлайн-магазина, пока мы будем держать руку на пульсе и мониторить рынок.
+ Что мы можем для вас сделать? Получите отчет с полным анализом цен на рынке онлайн-магазинов. Вам будут доступны следующие показатели:
+ цены конкурентов на аналогичные товары средняя цена на рынке медианная цена среди продавцов минимальная и максимальная цена на рынке отличие вашей цены от средней, медианной и минимальной в процентах рекомендованная цена  На большом наборе данных есть возможность рассчитать сезонную динамику и предсказать колебания рынка.</description>
+    </item>
+    
+    <item>
+      <title>Телеграм-боты</title>
+      <link>https://tinygods.dev/ru/telegram-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tinygods.dev/ru/telegram-bot/</guid>
+      <description>Автоматизируем процессы и улучшите взаимодействие с клиентами с помощью Телеграм-ботов. Мы разрабатываем ботов, которые облегчают ежедневные задачи и повышают эффективность вашего бизнеса.
+ Как мы можем помочь? Мы создаем Телеграм-ботов, которые могут выполнять разнообразные функции, включая:
+ Автоматизация обработки запросов от клиентов Организация управления проектами и других бизнес-процессов Уведомления о статусе заказа, состоянии сервисов и т.д. Поддержка клиентов в режиме реального времени Рассылка новостей и акций Интерфейс для доступа к данным, новостям, статистике  Наши боты легко интегрируются с существующими системами, обеспечивая бесшовную работу и быстрое внедрение.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -9,23 +9,36 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    gap: 20px; // Увеличиваем расстояние между пунктами меню
     > li {
-      margin-right: 10px;
       > a {
         display: inline-block;
         text-decoration: none;
+        font-size: 18px; // Увеличиваем размер шрифта
+        font-weight: 500; // Делаем немного жирнее
+        font-family: var(--font-family-heading); // Используем шрифт заголовков
+        color: var(--text-color);
+        padding: 8px 12px; // Добавляем отступы для лучшего клика
+        border-radius: 6px; // Добавляем скругление
+        transition: all 0.2s ease; // Плавные переходы
         &:hover {
-          text-decoration: underline;
+          background-color: var(--base-offset-color); // Фон при наведении
+          color: var(--highlight-color);
+          text-decoration: none;
+          transform: translateY(-1px); // Легкий подъем при наведении
         }
       }
       &.active {
         > a {
-          display: inline-block;
-          font-weight: bold;
+          background-color: var(--highlight-color);
+          color: var(--base-color);
+          font-weight: 600;
+          &:hover {
+            background-color: var(--highlight-color);
+            color: var(--base-color);
+            transform: none;
+          }
         }
-      }
-      &:last-of-type {
-        margin-right: 0;
       }
     }
   }

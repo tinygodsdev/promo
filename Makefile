@@ -19,6 +19,8 @@ commit-static:
 
 .PHONY: clear
 clear:
+	rm -rf public/*
+	touch public/.static
 	rm -rf assets
 	rm -rf authors
 	rm -rf media

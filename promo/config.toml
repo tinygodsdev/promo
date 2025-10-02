@@ -3,13 +3,13 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 theme = "hugo-winston-theme"
 themesDir = "themes"
-title = "TinyGods.Dev"
+title = "Tiny Gods Development"
 paginate = 3
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 DefaultContentLanguageInSubdir = false
-publishDir = ".."
+publishDir = "../public"
 
 [languages]
   [languages.en]
@@ -99,7 +99,9 @@ publishDir = ".."
   dotColor = "#966CF0"
   enableGoogleFonts = true 
   googleFontsUrl = "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&family=Parisienne&display=swap"
+  # googleFontsUrl = "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&family=Parisienne&display=swap"
   fontFamilyHeading = "Wix Madefor Text"
+  # fontFamilyParagraph = "IBM Plex Sans"
   fontFamilyParagraph = "Noto Sans"
   fontFamilyMonospace = "monospace"
   fontFamilyCursive = "Parisienne"

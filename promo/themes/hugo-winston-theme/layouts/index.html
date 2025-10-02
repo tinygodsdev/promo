@@ -10,10 +10,10 @@
     {{ if .Title}}
     <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
     {{ end }}
-    {{ if .Site.Params.showIntroContentOnHomepage}}
-      <div class="intro-content">{{ .Content }}</div>
-    {{ end }}
   </div>
+  {{ if .Site.Params.showIntroContentOnHomepage}}
+    <div class="content">{{ .Content }}</div>
+  {{ end }}
 
   {{ if .Site.Params.showPostsOnHomepage }}
 

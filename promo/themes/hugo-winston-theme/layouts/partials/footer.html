@@ -11,6 +11,17 @@
       {{ range .Site.Menus.main }}
       {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
       {{ $active = or $active (eq (.URL | relLangURL) ($currentPage.RelPermalink | relLangURL)) }}
+      
+      {{/* Специальная логика для кнопок переключения языка */}}
+      {{ if or (eq .Identifier "ru") (eq .Identifier "en") }}
+        {{ $active = false }}
+        {{ if eq .Identifier "ru" }}
+          {{ $active = eq $currentPage.Lang "ru" }}
+        {{ else if eq .Identifier "en" }}
+          {{ $active = eq $currentPage.Lang "en" }}
+        {{ end }}
+      {{ end }}
+      
       <li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }}">
         <a href="{{.URL}}">
           {{ .Pre }}
